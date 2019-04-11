@@ -70,6 +70,10 @@ $(function () {
   });
   
 
+  setTimeout(function () {
+    pageStart();
+  }, 800);
+
   //--------------------------------------------------
   //TOP
   if ($('.top-page').length){
