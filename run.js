@@ -89,6 +89,17 @@ $(function () {
       product_offset = $('#top-products').offset();
       guide_offset = $('#top-guide').offset();
     });
+
+    //pagescroll
+    $('a[href^="#"]').click(function () {
+      var speed = 400;
+      var href = $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      console.log(position);
+      $('body,html').animate({ scrollTop: position }, speed, 'swing');
+      return false;
+    });
     
     $(window).scroll(function(){
       inview("#top-message .text-box", "show");
@@ -106,16 +117,7 @@ $(function () {
         $(".hd-top").addClass("active");
       }
 
-      //pagescroll
-      $('a[href^="#"]').click(function () {
-        var speed = 400;
-        var href = $(this).attr("href");
-        var target = $(href == "#" || href == "" ? 'html' : href);
-        var position = target.offset().top;
-        console.log(position);
-        $('body,html').animate({ scrollTop: position }, speed, 'swing');
-        return false;
-      });
+      
 
     });
 
