@@ -129,4 +129,11 @@ $(function () {
     
   }
 
+  if ($('#item_page_wrap').length) {
+    console.log('商品');
+    setTimeout(function () {
+      pageStart();
+    }, 500);
+  }
+
 });
