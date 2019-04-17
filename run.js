@@ -109,11 +109,9 @@ $(function () {
       var Topscroll = $(window).scrollTop();
       $(".hd-link").removeClass("active");
       if (Topscroll > product_offset.top) {
-        $('.top-logo-box img').attr("src","img/top-logo-b.png");
-        console.log('黒');
+        $('.top-logo-box img').attr("src","https://basefile.akamaized.net/koeshop-official-ec/5cb6a6750c19d/top-logo-b.png");
       }else {
-        $('.top-logo-box img').attr("src", "img/top-logo-w.png");
-        console.log('白');
+        $('.top-logo-box img').attr("src", "https://basefile.akamaized.net/koeshop-official-ec/5cb6a62be5f4d/top-logo-w.png");
       }
 
     });
