@@ -95,9 +95,27 @@ $(function () {
       });
     }, 2000);
 
+
+    var product_offset = $('#top-product').offset();
+    $(window).on("load resize", function () {
+      product_offset = $('#top-product').offset();
+    });
+
+
     $(window).scroll(function () {
       inview("#top-message .title", "show");
       inview("#top-message .lead", "show");
+
+      var Topscroll = $(window).scrollTop();
+      $(".hd-link").removeClass("active");
+      if (Topscroll > product_offset.top) {
+        $('.top-logo-box img').attr("src","img/top-logo-b.png");
+        console.log('黒');
+      }else {
+        $('.top-logo-box img').attr("src", "img/top-logo-w.png");
+        console.log('白');
+      }
+
     });
   
 
