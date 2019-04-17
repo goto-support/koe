@@ -129,11 +129,18 @@ $(function () {
     
   }
 
-  if ($('#item_page_wrap').length) {
-    console.log('商品');
+  if ($('.product-page').length) {
+    
     setTimeout(function () {
       pageStart();
     }, 500);
+
+    $('.thum-lists .list').click(function(){
+      var index = $('.thum-lists .list').index(this);
+     
+      $('.main-photo img').removeClass("show");
+      $('.main-photo img').eq(index).addClass("show");
+    });
   }
 
 });
