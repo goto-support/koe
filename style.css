@@ -27,6 +27,8 @@
 .category-title{
   font-size: 1.8rem;
   line-height: 1;
+  font-weight: bold;
+  padding:30px;
 }
 .category-title h2{
   margin-bottom: 0;
