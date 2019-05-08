@@ -14,11 +14,20 @@
 
 /* Top */
 #featuredItems .item-thumb-img{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 #featuredItems .item-thumb-img .icon{
   width: 60px;
   position: absolute;
   bottom: -10px;
   left: 10px;
+}
+
+/*category*/
+.category-title{
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.category-title h2{
+  margin-bottom: 0;
 }
