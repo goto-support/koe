@@ -1,4 +1,12 @@
+.f-gold{
+  color:#b1a086;
+}
 .first-photo{
   width: 100%;
-  margin-bottom: 20px;
+}
+
+/* side */
+.side-bunner{
+  width: 100%;
+  margin-bottom: 25px;
 }
