@@ -33,3 +33,9 @@
 .category-title h2{
   margin-bottom: 0;
 }
+
+/* product */
+.bx-wrapper{
+  float: none;
+  margin: 0 auto;
+}
