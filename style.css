@@ -34,6 +34,10 @@
   margin-bottom: 0;
 }
 
+.category-page .item-title{
+  min-height: 40px;
+}
+
 /* product */
 .bx-wrapper{
   float: none;
