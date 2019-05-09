@@ -23,6 +23,10 @@
   left: 10px;
 }
 
+.item-box span.item-thumb-img{
+  overflow:visible;
+}
+
 /*category*/
 .category-title{
   font-size: 1.8rem;
