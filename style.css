@@ -117,11 +117,16 @@
 
 @media all and (min-width: 767px) {
 
-  .head-nav .menu a:hover{
-    text-decoration: underline;
-  }
   header #logo:hover{
     opacity: .5;
+  }
+
+  #itemthumbs .item-box:hover{
+    opacity: 0.6;
+  }
+
+  #featuredItems .item-box:hover{
+    opacity: 0.6;
   }
 }
 
