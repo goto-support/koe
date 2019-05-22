@@ -13,13 +13,13 @@
   max-height: 90px;
 }
 
-#mainHeader .headnav .menu{
+#mainHeader .headnav .menu {
   position: absolute;
   bottom: 25px;
   right: 0;
 }
 @media all and (max-width: 767px) {
-  #mainHeader .headnav .menu{
+  #mainHeader .headnav .menu {
     position: relative;
     bottom: auto;
     right: auto;
@@ -30,6 +30,17 @@
 .side-bunner {
   width: 100%;
   margin-bottom: 25px;
+}
+@media all and (max-width: 767px) {
+  .side-bunner {
+    display: none;
+  }
+}
+
+@media all and (max-width: 480px) {
+  aside.sidenav {
+    padding: 20px 20px;
+  }
 }
 
 /* Top */
