@@ -78,3 +78,36 @@
   float: none;
   margin: 0 auto;
 }
+
+/* 会社概要*/
+@media all and (max-width: 480px) {
+  .static_wrap {
+    padding: 30px 20px;
+  }
+}
+
+#about .company-cont {
+  margin-bottom: 30px;
+}
+#about .company-flex {
+  padding: 0.75em 0;
+  font-size: 1.6rem;
+  display: flex;
+  border-bottom: 1px solid #aaa;
+}
+@media all and (max-width: 480px) {
+  #about .company-flex {
+    display: block;
+  }
+}
+
+#about .company-flex .th {
+  width: 120px;
+}
+
+@media all and (max-width: 480px) {
+  #about .company-flex .th {
+    width: 100%;
+  }
+}
+
