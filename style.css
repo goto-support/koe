@@ -14,7 +14,7 @@
   max-height: auto;
 }
 
-#mainHeader .headnav .menu {
+/* #mainHeader .headnav .menu {
   position: absolute;
   bottom: 25px;
   right: 0;
@@ -25,7 +25,7 @@
     bottom: auto;
     right: auto;
   }
-}
+} */
 
 /* side */
 .side-bunner {
